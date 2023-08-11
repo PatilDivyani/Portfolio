@@ -59,7 +59,9 @@ section {
   /* margin-top: 100px; */
   width: 300px;
 }
-
+.about-img:hover{
+  scale: 1.1;
+}
 .about-details {
   margin-top: 40px;
   display: flex;
@@ -85,7 +87,6 @@ section {
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
 }
-
 .skill-item {
   display: flex;
   justify-content: center;
@@ -93,7 +94,9 @@ section {
   height: 50px;
   background-color: #008665;
 }
-
+.skill-item:hover{
+  scale: 1.05;
+}
 /* Projects */
 .project-details {
   width: 80%;
@@ -110,11 +113,16 @@ section {
   height: 370px;
   padding: 10px;
   background-color: #008665;
+  border-radius: 10px;
+}
+.projectCard:hover{
+  scale: 1.05;
 }
 
 .projectCard img {
-  width: 219px;
+  width: 222px;
   height: 150px;
+  border-radius: 5px;
 }
 
 .projectCard .card-details {
@@ -154,6 +162,8 @@ section {
   margin: 50px;
 }
 .contact-social a{
- 
   padding: 30px;
+}s
+.contact-social a:hover{
+  scale: 1.2;
 }
